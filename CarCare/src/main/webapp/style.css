@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+
+background-image: linear-gradient(to bottom, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	 min-height: 100vh;
+}
+h1{
+	text-align: center;
+}
+nav ul{
+	display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+nav li{
+	padding: 5px;
+	border-radius: 2px;
+}
+nav li:hover{
+	background-color: black;
+	color: white;
+}
+form-container{
+background-color: white;
+min-width: 200px;
+min-height: 200px;
+margin: 0px auto;
+justify-content: center;
+text-align: center;
+border-radius: 5px;
+}
